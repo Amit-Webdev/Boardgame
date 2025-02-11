@@ -28,7 +28,7 @@ pipeline {
 
     post {
         always {
-          echo 'Webhook configured in develop branch successfully'
+          echo 'Webhook configured 2nd time only in develop branch successfully'
         }
     }
 }
