@@ -25,4 +25,10 @@ pipeline {
             }
         }
     }
+
+    post {
+        always {
+          echo 'Webhook configured in develop branch successfully'
+        }
+    }
 }
